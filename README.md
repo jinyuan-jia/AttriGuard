@@ -36,12 +36,13 @@ Precision List: [0.40533357874804465, 0.37401591704839077, 0.29669582540648953, 
 This code is implemented by Jinyuan Jia (at Singles Day, 2018). If you have any question, please feel free to send email to jinyuanjia02@gmail.com. 
 
 # Citation
-Please note that this dataset could be used for research purpose only, and any commercial use of the data is prohibited.
 If you use this code or dataset, please cite following paper: 
 
+```
 @inproceedings{jia2018attriguard,
   title={{AttriGuard}: A Practical Defense Against Attribute Inference Attacks via Adversarial Machine Learning},
   author={Jinyuan Jia and Neil Zhenqiang Gong},
   booktitle={USENIX Security Symposium},
   year={2018}
 }
+```
