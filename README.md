@@ -37,9 +37,9 @@ This code is implemented by Jinyuan Jia (at Singles Day, 2018). If you have any 
 
 If you use this code or dataset, please cite following paper: 
 
-@inproceedings{jia2018attriguard,
+@inproceedings{jia2018attriguard
   title={{AttriGuard}: A Practical Defense Against Attribute Inference Attacks via Adversarial Machine Learning},
-  author={Jinyuan Jia and Neil Zhenqiang Gong},
+  author={Jinyuan Jia and Neil Zhenqiang Gong}
   booktitle={USENIX Security Symposium},
   year={2018}
 }
