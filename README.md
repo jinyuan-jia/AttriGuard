@@ -2,13 +2,14 @@
 
 This repository contains dataset and code for "AttriGuard: A Practical Defense Against Attribute Inference Attacks via Adversarial Machine Learning". 
 
-Required python tool (under Ubuntu 16.04):Python 2.7, Keras (2.2.2), TensorFlow 1.9.0 (as we compute gradient, different backend may have different implementation, you maybe need to check the backend), cvxpy (0.4.9), numpy, argparse (1.1). GPU support (you can also comment related code if not using GPU). 
+Required python tool (under Ubuntu 16.04):
+Python 2.7, Keras (2.2.2), TensorFlow 1.9.0 (as we compute gradient, different backend may have different implementation, you maybe need to check the backend), cvxpy (0.4.9), numpy, argparse (1.1). GPU support (you can also comment related code if not using GPU). 
 
 This is an optimized version which is more efficient than our original version.  
 
 We also use a better setting (we changed setting like batch size, learning rate, and epochs) of neural network classifiers than we originally used in our paper for both attacker and defender to better show the effectiveness of the proposed method. 
 
-The data folder contains the data we used: 
+#Dataset description: 
 
 train_user.txt contains the training data, each row represents apps rated by an user. For example, in 3:1.0, 3 denotes app id and 1.0 represents rating score (we normalize rating scores from 0-5 to 0-1). 
 
@@ -16,6 +17,7 @@ train_label.txt contains user city id. For example, first row is 5 represents us
 
 test_user.txt and test_label.txt is similar to training dataset. 
 
+#Code usage: 
 input_data.py is used to read training data and testing data. 
 
 keras_model.py contains defense model and attack model. 
