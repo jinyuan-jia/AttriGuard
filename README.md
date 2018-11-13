@@ -36,11 +36,11 @@ Utility budget list: [0.3, 0.5, 1.0, 2.0, 3.0, 4.0, 5.0]
 
 Precision List: [0.40533357874804465, 0.37401591704839077, 0.29669582540648953, 0.1757927078923598, 0.11926823669601153, 0.09420353248479023, 0.08253129542458063]
 
-This code is implemented by Jinyuan Jia (at Singles Day, 2018). If you have any question, please feel free to send email to jinyuanjia02@gmail.com. 
+This code is implemented by Jinyuan Jia (Singles Day, 2018). If you have any question, please feel free to send email to jinyuanjia02@gmail.com. 
 
 # Citation
 If you use this code or dataset, please cite following paper: 
-
+<a href="https://arxiv.org/pdf/1805.04810.pdf">AttriGuard</a>
 ```
 @inproceedings{jia2018attriguard,
   title={{AttriGuard}: A Practical Defense Against Attribute Inference Attacks via Adversarial Machine Learning},
