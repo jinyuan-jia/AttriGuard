@@ -1,4 +1,4 @@
-# AttriGuard
+# AttriGuard: A Practical Defense Against Attribute Inference Attacks via Adversarial Machine Learning
 
 This repository contains dataset and code for "AttriGuard: A Practical Defense Against Attribute Inference Attacks via Adversarial Machine Learning". 
 
