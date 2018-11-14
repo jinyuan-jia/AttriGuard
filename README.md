@@ -2,8 +2,7 @@
 
 This repository contains dataset and code for "AttriGuard: A Practical Defense Against Attribute Inference Attacks via Adversarial Machine Learning". 
 
-# Required python tool (under Ubuntu 16.04):
-Python 2.7, Keras (2.2.2), TensorFlow 1.9.0 (as we compute gradient, different backend may have different implementation, you maybe need to check the backend), cvxpy (0.4.9), numpy, argparse (1.1). GPU support (you can also comment related code if not using GPU). 
+Required python tool (under Ubuntu 16.04): Python 2.7, Keras (2.2.2), TensorFlow 1.9.0 (as we compute gradient, different backend may have different implementation, you maybe need to check the backend), cvxpy (0.4.9), numpy, argparse (1.1). GPU support (you can also comment related code if not using GPU). 
 
 This is an optimized version which is more efficient than our original version.  
 
