@@ -6,7 +6,7 @@ Required python tool (under Ubuntu 16.04): Python 2.7, Keras (2.2.2), TensorFlow
 
 This is an optimized version which is more efficient than our original version.  
 
-We also use a better setting (we changed setting like batch size, learning rate, and epochs) of neural network classifiers than we originally used in our paper for both attacker and defender to better show the effectiveness of the proposed method. 
+We also use a better setting (we changed setting like batch size, learning rate, loss function and epochs) of neural network classifiers than we originally used in our paper for both attacker and defender to better show the effectiveness of the proposed method. 
 
 # Dataset description: 
 
