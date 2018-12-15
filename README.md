@@ -31,9 +31,9 @@ You can directly run shell run.sh (chmod +x run.sh run_phaseI.sh) after installi
 
 We also run the code and obtain the following result (defender uses NN, attacker also uses NN): (similar to Figure 4 in AttriGuard paper). We can provide pre-trained model if needed. 
 
-Utility budget list: [0.3, 0.5, 1.0, 2.0, 3.0, 4.0, 5.0]
+Utility Budget List: [0.3, 0.5, 1.0, 2.0, 3.0, 4.0, 5.0]
 
-Inference accuracy list: [0.41, 0.37, 0.30, 0.18, 0.12, 0.09, 0.08]
+Inference Accuracy List: [0.41, 0.37, 0.30, 0.18, 0.12, 0.09, 0.08]
 
 This code is implemented by Jinyuan Jia. If you have any question, please feel free to send email to jinyuanjia02@gmail.com. 
 
